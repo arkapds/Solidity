@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ultimate-solidity-course-for-complete-beginners-main/Exercises/7-11-BasicTwitter-Exercise.sol": "Twitter"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ultimate-solidity-course-for-complete-beginners-main/Exercises/7-11-BasicTwitter-Exercise.sol": {
+			"keccak256": "0xa34b7f5bb98930c4f3091cad2eccfe76db7b963a7e5946ee373daa780d69f40b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a689003809adee02b155a6e4babf57fa7b5799eb633984f5fc3b2c306d8ec468",
+				"dweb:/ipfs/QmQAca3LT9m8H8Z4HbV1BKq5Y7HXi3sNHmFWs3FniyTrCU"
+			]
+		}
+	},
+	"version": 1
+}
