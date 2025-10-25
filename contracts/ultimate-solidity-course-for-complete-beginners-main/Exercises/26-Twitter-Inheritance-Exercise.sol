@@ -26,6 +26,8 @@ contract Twitter is Ownable {
     event TweetLiked(address liker, address tweetAuthor, uint256 tweetId, uint256 newLikeCount);
     event TweetUnliked(address unliker, address tweetAuthor, uint256 tweetId, uint256 newLikeCount);
 
+    constructor(address initialOwner) Ownable(initialOwner) {}
+
     function changeTweetLength(uint16 newTweetLength) public onlyOwner {
         MAX_TWEET_LENGTH = newTweetLength;
     }

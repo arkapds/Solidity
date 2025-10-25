@@ -6,7 +6,7 @@
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.30;
 
 contract Twitter is Ownable {
 
@@ -21,9 +21,7 @@ contract Twitter is Ownable {
     }
     mapping(address => Tweet[] ) public tweets;
 
-    constructor(address initialOwner){
-        
-    }
+    constructor(address initialOwner) Ownable(initialOwner) {}
 
     // Define the events
     event TweetCreated(uint256 id, address author, string content, uint256 timestamp);
